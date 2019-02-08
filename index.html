@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+		<title>GIF search app</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+	</head>
+	<body>
+
+		<section>
+		
+			<header id="header">
+				<div class="container-fluid"><h2 class="text-center"><b>ALC 3.1 IGANDO WEB PROJECT - INTERMEDIATE</b></h2></div>
+			</header>
+
+			<div class="container-fluid">
+				<div id="search-block">
+					<h4 class="text-center">Search your prefered GIF</h4>
+					<form name="fname" id="search-form" class="form-inline text-center">
+						<div class="form-group">
+							<input type="text" name="search-name" value=" " id="search-input" class="form-control">
+						</div>
+						<button type="submit" class="btn btn-default">search</button><div id="loader"></div>
+					</form>
+				</div>
+			</div>
+		
+			<div class="container-fluid">
+				<div class="row gif-rw">
+					<div class="col-xs-4 gif-box text-center"></div>
+					<div class="col-xs-4 gif-box text-center"></div>
+					<div class="col-xs-4 gif-box text-center"></div>
+				</div>
+				<div class="row gif-rw">
+					<div class="col-xs-4 gif-box text-center"></div>
+					<div class="col-xs-4 gif-box text-center"></div>
+					<div class="col-xs-4 gif-box text-center"></div>
+				</div>
+			</div>
+
+		</section>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
