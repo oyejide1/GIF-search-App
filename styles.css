@@ -1,11 +1,11 @@
 body {background: lightgrey;}
-#header {margin: 25px 0px;}
+#header {margin: 25px 0;}
 .gif-rw, #search-block {margin: auto; width: 50%;}
 #search-form {margin-bottom: 30px;}
-#search-input {box-shadow: 0px 2px grey}
-#loader{position: absolute; display: inline; z-index: 1; margin: 0 5px;
+#search-input {box-shadow: 0 2px grey}
+#loader{position: absolute; display: inline-block; z-index: 1; margin: 0 5px;
     border: 5px solid #f3f3f3; border-radius: 50%; border-top: 5px solid #3498db; width: 20px; height: 20px;
-    -webkit-animation: spin 2s linear infinite; animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite; animation: spin 1s linear infinite;
   }
   @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); } 100% { -webkit-transform: rotate(360deg); }
