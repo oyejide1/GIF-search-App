@@ -8,7 +8,7 @@ let searchInput = searchForm["search-name"];
 let errorParagraph = document.getElementById("error-message");
 
 // API URL
-let giphyAPI = searchQuery => `http://api.giphy.com/v1/gifs/search?q=${searchQuery}&api_key=ZOEonCGqKG0RpUfUGZOigxO8ZOOqxzjf&limit=6`;
+let giphyAPI = searchQuery => `https://api.giphy.com/v1/gifs/search?q=${searchQuery}&api_key=ZOEonCGqKG0RpUfUGZOigxO8ZOOqxzjf&limit=6`;
 
 // Search Control Functions
 let getSearchValue = () => {
